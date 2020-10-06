@@ -4,6 +4,7 @@
 
 from random import randint
 
+
 # Method 1
 def sum_of_digits_1(number):
     result = 0
@@ -23,7 +24,7 @@ def sum_of_digits_2(number):
 
 n = int(input('Input a number of digits: '))
 
-my_number = randint(pow(10, n-1), pow(10, n) - 1)
+my_number = randint(pow(10, n - 1), pow(10, n) - 1)
 
 print(my_number)
 print(sum_of_digits_1(my_number))
