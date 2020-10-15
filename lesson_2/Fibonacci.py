@@ -38,7 +38,7 @@
 
 
 # TODO: HW: Rewrite code, which will return only needed element of Fib sequence
-
+# Homework 2_1
 def fibonacci(n):
     if n < 0:
         print('Wrong value')
