@@ -123,3 +123,6 @@ main>nav+section>p:not(:last-child) {
 main>aside{
     grid-area:sidebar
 }
+footer{
+    display: none;
+}
